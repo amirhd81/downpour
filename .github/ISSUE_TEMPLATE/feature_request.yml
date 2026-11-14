@@ -1,7 +1,30 @@
-name: Feature request
-description: Suggest an idea for Downpour.
+name: Suggest a feature
+description: An idea to make Downpour better.
+title: "[Idea] "
 labels: [enhancement]
 body:
+  - type: markdown
+    attributes:
+      value: Check the [roadmap](https://github.com/amirhd81/downpour/blob/main/ROADMAP.md) first. If your idea is already there, give its issue a 👍 so we know it matters to you.
+  - type: dropdown
+    id: feature
+    attributes:
+      label: Which part of Downpour is it about?
+      options:
+        - Downloading files (speed, pause and resume)
+        - Browser extension
+        - Video downloads
+        - Scheduler queues
+        - Speed limits and sharing
+        - Categories and folders
+        - Grab links from a page
+        - Checksums and file safety
+        - Automatic updates
+        - Early-adopter sign-up, Pro and the trial
+        - Settings and the main window
+        - Something else
+    validations:
+      required: true
   - type: textarea
     id: idea
     attributes:

@@ -29,6 +29,11 @@ Want **80% off Downpour Pro** when it officially launches? Join the early-adopte
 
 Your email is only used for launch news and your discount. See the [privacy policy](PRIVACY.md).
 
+## 🗺️ Roadmap
+Downpour is a work in progress, and new features arrive through automatic updates. Coming next: automatic archive extraction, audio-only and subtitle video downloads, virus scanning, and later BitTorrent, remote control from your phone and translations.
+
+See everything that's available now and what's planned in the **[roadmap](ROADMAP.md)**.
+
 ## Free and Pro
 After the beta, Downpour stays **free** for everyday downloading. **Downpour Pro** adds the power features:
 
@@ -104,7 +109,10 @@ Click the Downpour icon in your browser's toolbar. It should say **Connected to 
 The extension only talks to the Downpour app on your own Mac. It doesn't send your browsing anywhere else.
 
 ## Feedback
-Found a bug or have an idea? [Open an issue](../../issues), or use **Help › Report a Bug…** in the app. Beta feedback decides what comes next.
+Beta feedback decides what comes next.
+- **Something broken?** [Report a problem](../../issues/new?template=bug_report.yml) and pick the part of Downpour it's about.
+- **Have an idea?** [Suggest a feature](../../issues/new?template=feature_request.yml). Check the [roadmap](ROADMAP.md) first, and 👍 existing ideas you'd like.
+- **From the app:** **Help › Report a Problem…** or **Suggest a Feature…** fills in your Downpour and macOS versions for you. You can also right-click a download that failed and choose **Report a Problem with This Download…**
 
 If you enjoy Downpour, a ⭐ on this page helps other Mac users find it.
 

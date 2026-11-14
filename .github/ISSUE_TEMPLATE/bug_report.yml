@@ -1,10 +1,32 @@
-name: Bug report
+name: Report a problem
 description: Something in Downpour or its browser extension isn't working.
+title: "[Bug] "
 labels: [bug]
 body:
   - type: markdown
     attributes:
-      value: Thanks for helping make Downpour better! Please don't include passwords, cookies or private links.
+      value: |
+        Thanks for helping make Downpour better! Tip: in the app, **Help › Report a Problem…** fills in your versions for you.
+        Please don't include passwords, cookies or private links.
+  - type: dropdown
+    id: feature
+    attributes:
+      label: Which part of Downpour has the problem?
+      options:
+        - Downloading files (speed, pause and resume)
+        - Browser extension
+        - Video downloads
+        - Scheduler queues
+        - Speed limits and sharing
+        - Categories and folders
+        - Grab links from a page
+        - Checksums and file safety
+        - Automatic updates
+        - Early-adopter sign-up, Pro and the trial
+        - Settings and the main window
+        - Something else
+    validations:
+      required: true
   - type: textarea
     id: what
     attributes:
@@ -23,8 +45,13 @@ body:
   - type: input
     id: link
     attributes:
-      label: Link that failed (if it's public)
+      label: Link that failed (only if it's public)
       placeholder: https://…
+  - type: textarea
+    id: error
+    attributes:
+      label: Error message or screenshot
+      description: Paste the exact error text, or drag a screenshot here.
   - type: input
     id: downpour
     attributes:
@@ -62,8 +89,3 @@ body:
         - Opera
         - Vivaldi
         - Other
-  - type: textarea
-    id: error
-    attributes:
-      label: Error message or screenshot
-      description: Paste the exact error text, or drag a screenshot here.
