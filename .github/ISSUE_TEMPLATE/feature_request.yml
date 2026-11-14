@@ -1,0 +1,20 @@
+name: Feature request
+description: Suggest an idea for Downpour.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like Downpour to do?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why would it help you?
+      description: What are you trying to do today, and what gets in the way?
+  - type: textarea
+    id: other
+    attributes:
+      label: Have you seen it in another app?
+      description: For example IDM, Folx or JDownloader.

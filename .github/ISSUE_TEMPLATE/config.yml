@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Privacy policy
+    url: https://github.com/amirhd81/downpour/blob/main/PRIVACY.md
+    about: How Downpour handles your data, and how to remove your early-adopter email.

@@ -1,0 +1,69 @@
+name: Bug report
+description: Something in Downpour or its browser extension isn't working.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for helping make Downpour better! Please don't include passwords, cookies or private links.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Add the link …
+        2. Click …
+        3. See the error …
+  - type: input
+    id: link
+    attributes:
+      label: Link that failed (if it's public)
+      placeholder: https://…
+  - type: input
+    id: downpour
+    attributes:
+      label: Downpour version
+      description: Downpour › About Downpour
+      placeholder: 1.0.1
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version
+      description:  › About This Mac
+      placeholder: macOS 15.2
+    validations:
+      required: true
+  - type: dropdown
+    id: mac
+    attributes:
+      label: Mac type
+      options:
+        - Apple silicon (M1 or later)
+        - Intel
+        - Not sure
+  - type: dropdown
+    id: browser
+    attributes:
+      label: Browser (if it's about the extension)
+      options:
+        - Not about the extension
+        - Chrome
+        - Edge
+        - Brave
+        - Arc
+        - Opera
+        - Vivaldi
+        - Other
+  - type: textarea
+    id: error
+    attributes:
+      label: Error message or screenshot
+      description: Paste the exact error text, or drag a screenshot here.
