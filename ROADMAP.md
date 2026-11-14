@@ -4,7 +4,7 @@ Downpour is in **public beta** and actively being built. This page shows what wo
 
 Have an idea? [Suggest a feature](https://github.com/amirhd81/downpour/issues/new?template=feature_request.yml). Something broken? [Report a problem](https://github.com/amirhd81/downpour/issues/new?template=bug_report.yml), or use **Help › Report a Problem…** in the app.
 
-**Legend:** ✅ available now · 🔨 being built · 📋 planned · 💡 being considered
+**Legend:** ✅ available now · 🔨 being built now · 📋 planned · 💡 being considered
 
 ---
 
@@ -51,33 +51,22 @@ Have an idea? [Suggest a feature](https://github.com/amirhd81/downpour/issues/ne
 
 ---
 
-## 🔨 Next up
+## 🚀 Big features
 
 - 🔨 **Extract archives automatically** (ZIP, RAR, 7z, multi-part), with an option to delete the archive afterwards
+- 📋 **BitTorrent and magnet links**
+- 📋 **Remote control from your phone:** add and manage downloads from any device on your home network
+- 📋 **Downpour Pro** official launch, with a free 7-day trial (beta early adopters get 80% off)
+- 📋 **Translations** into more languages
+- 💡 **Whole-site grabber** with filters, and scheduled re-sync
+- 💡 **RSS and podcast feeds** that download new episodes automatically
+- 💡 **Mirrors:** download one file from several servers at once
+
+## ✨ Small improvements
+
 - 🔨 **More video options:** audio only, choose the format, download subtitles
 - 🔨 **Scan downloads for viruses** with a scanner you choose
-- 🔨 **Signed and notarized app**, so macOS no longer asks you to confirm the first time
-
-## 📋 Planned
-
-- 📋 **BitTorrent and magnet links**
-- 📋 **Downpour Pro** official launch, with a free 7-day trial (beta early adopters get 80% off)
 - 📋 **Browser extension in the Chrome Web Store**, for one-click installing
-- 📋 **Remote control from your phone:** add and manage downloads from any device on your home network
 - 📋 **Shortcuts and AppleScript support** for automating downloads
-- 📋 **Translations**, starting with Persian
-
-## 💡 Being considered
-
-- 💡 Whole-site grabber with filters, and scheduled re-sync
-- 💡 Download one file from several mirrors at once
-- 💡 Preview videos while they download, and peek inside ZIP files before downloading
-- 💡 Tags and Spotlight search for downloads
-- 💡 RSS and podcast feeds that download new episodes automatically
-
----
-
-## Not planned
-Some features other download managers offer won't come to Downpour, because they break websites' rules or mostly help with pirated content:
-- Solving captchas or getting around file-host limits
-- Built-in torrent search
+- 💡 **Preview videos while they download**, and peek inside ZIP files before downloading
+- 💡 **Tags and Spotlight search** for downloads
