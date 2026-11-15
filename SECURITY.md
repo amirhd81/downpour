@@ -19,7 +19,7 @@ Instead, email **amir.hd.davoudi1381@gmail.com** with:
 You'll get a reply within 7 days. Once it's fixed, the release notes will credit you, unless you'd rather stay anonymous.
 
 ## What Downpour does to stay safe
-- The browser extension talks only to the Downpour app on your own Mac (127.0.0.1), and the app accepts requests only from the extension.
+- The browser extension talks only to the Downpour app on your own Mac (127.0.0.1), and the app refuses requests that come from websites.
 - Site logins are stored in the macOS Keychain.
 - Updates are signed and checked before they're installed.
 - Downloaded files are marked as coming from the internet, so macOS checks downloaded apps before they first open.
