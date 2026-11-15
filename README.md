@@ -132,4 +132,4 @@ yt-dlp, Deno and FFmpeg aren't included in Downpour. They're downloaded from the
 
 Please only download files and videos you have the right to save.
 
-© 2026 Amirhossein Davoudi. All rights reserved.
+© 2026 Amirhossein Davoudi. All rights reserved. See [LICENSE](LICENSE) and the [security policy](SECURITY.md).

@@ -1,0 +1,31 @@
+Downpour Software License
+
+Copyright (c) 2026 Amirhossein Davoudi. All rights reserved.
+
+Downpour is proprietary software. Its source code is not published in this
+repository. This repository holds only the app's releases, documentation and
+update feed.
+
+1. Use. You may download, install and use the released Downpour app and its
+   browser extension on any number of Macs you own or control, for personal or
+   work use. Features marked "Pro" may require a purchase after the beta.
+
+2. Restrictions. You may not sell, rent or sublicense Downpour; publish modified
+   copies of it; remove or bypass its licensing; or decompile or reverse
+   engineer it, except where the law of your country allows this regardless.
+
+3. Sharing. You may share links to this repository and its official releases.
+   Please don't re-host the app elsewhere, so that everyone gets genuine,
+   up-to-date copies.
+
+4. Third-party software. Downpour includes or downloads open-source components
+   (Sparkle, yt-dlp, Deno, FFmpeg) that are covered by their own licenses. This
+   license doesn't change their terms. See "Credits" in README.md.
+
+5. Your responsibility. Only download files and videos you have the right to
+   save, and follow the terms of the sites you download from.
+
+6. No warranty. Downpour is provided "as is", without warranty of any kind.
+   The author isn't liable for any damage or loss arising from its use.
+
+Questions: amir.hd.davoudi1381@gmail.com
