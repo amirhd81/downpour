@@ -20,7 +20,7 @@
 - **Speed control.** Limit speed, limit it only during certain hours, or share it fairly between downloads.
 
 ## 🧪 Free beta: join the early-adopter list for 80% off
-Every feature is unlocked for everyone during the beta.
+Every feature is unlocked for everyone during the beta, which runs until **March 1, 2027**. After that, the beta switches to the free version, so keep automatic updates on to move to the official release.
 
 Want **80% off Downpour Pro** when it officially launches? Join the early-adopter list:
 1. Open Downpour. The welcome window has a **Join** box (you can also find it any time in **Downpour › Settings… › General**).
